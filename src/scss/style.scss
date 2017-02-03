@@ -1,0 +1,10 @@
+$main-bg-color: rgba(238, 230, 217, 100);
+$main-blue-color: rgba(107, 120, 175, 100);
+
+@import 'partials/_navbar.scss';
+
+.background {
+  background-color: $main-bg-color;
+  margin: 0;
+  height: 100%
+}
