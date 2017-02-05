@@ -3,16 +3,47 @@
   border-color: $main-blue-color;
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
+  color: $main-white-color;
+  min-height: 80px
+}
+
+.navbar-brand {
+  color: $main-white-color;
+  margin-bottom: 40px;
+
+  > img {
+    width: 40%;
+  }
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+  color: $main-white-color;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: $secondary-font-stack;
+  font-size: 1.25em;
+}
 
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+    line-height: 15px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .navbar-brand {
+    margin-bottom: 10px;
+
+    > img {
+      width: 20%;
+    }
+  }
 }
+
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color:transparent;
+    color: $main-blue-color;
+    background-color: transparent;
 }
-.navbar-custom .navbar-brand {
-    color:#eeeeee;
+
+.icon-bar {
+  background-color: $main-white-color;
 }

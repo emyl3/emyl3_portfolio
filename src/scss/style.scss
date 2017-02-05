@@ -1,5 +1,10 @@
 $main-bg-color: rgba(238, 230, 217, 100);
 $main-blue-color: rgba(107, 120, 175, 100);
+$main-white-color: rgba(255, 255, 255, 100);
+
+$primary-font-stack: 'Lobster Two', cursive;
+$secondary-font-stack: 'Lato', sans-serif;
+
 
 @import 'partials/_navbar.scss';
 
@@ -7,4 +12,8 @@ $main-blue-color: rgba(107, 120, 175, 100);
   background-color: $main-bg-color;
   margin: 0;
   height: 100%
+}
+
+.red {
+  font-family: $primary-font-stack;
 }
