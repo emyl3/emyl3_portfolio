@@ -24,6 +24,10 @@
   font-size: 1.25em;
 }
 
+.icon-bar {
+  background-color: $main-white-color;
+}
+
 @media (max-width: 767px) {
   .navbar-nav > li > a {
     line-height: 15px !important;
@@ -37,13 +41,4 @@
       width: 20%;
     }
   }
-}
-
-.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: $main-blue-color;
-    background-color: transparent;
-}
-
-.icon-bar {
-  background-color: $main-white-color;
 }

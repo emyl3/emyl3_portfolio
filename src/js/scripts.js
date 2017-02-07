@@ -3,16 +3,45 @@
   'use strict';
 
   $(function () {
+    //gets year for copyright
+    var currentYear = new Date().getFullYear();
 
+    $(function () {
+      $('.copyrightyear').text(currentYear);
+    });
+
+    //displays info about gallery image on hover
     $('.image').hover(
       function () {
         $(this).find('.post-content').css('display', 'block');
       },
 
       function () {
-      $(this).find('.post-content').css('display', 'none');
-    }
-  );
+        $(this).find('.post-content').css('display', 'none');
+      }
+    );
+
+    //github footer icon hover effect
+    $('#github').hover(
+      function () {
+        $(this).find('img').attr('src', '/assets/img/github_icon_blue.png');
+      },
+
+      function () {
+        $(this).find('img').attr('src', '/assets/img/github_icon_white.png');
+      }
+    );
+
+    //linkedin footer icon hover effect
+    $('#linkedin').hover(
+      function () {
+        $(this).find('img').attr('src', '/assets/img/linkedin_icon_blue.png');
+      },
+
+      function () {
+        $(this).find('img').attr('src', '/assets/img/linkedin_icon_white.png');
+      }
+    );
 
   });
 

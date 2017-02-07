@@ -15,14 +15,25 @@ $secondary-font-stack: 'Lato', sans-serif;
 
 
 .background {
-  background-color: $main-bg-color;
+  background-color: $main-white-color;
   margin: 0;
   height: 100%
 }
 
 .heading {
-  font-family: $primary-font-stack;
-  color: $main-brown-color;
-  font-size: 4em;
-  text-align: center;
+  h1 {
+    font-family: $primary-font-stack;
+    color: $main-brown-color;
+    font-size: 4em;
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 3em;
+    margin-bottom: 10%;
+  }
 }

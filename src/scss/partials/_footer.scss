@@ -1,4 +1,24 @@
 footer {
   background-color: $secondary-brown-color;
-  height: 50px;
+  padding: 2%;
+  text-align: center;
+  color: $main-white-color;
+  font-family: $secondary-font-stack;
+
+  .copyright {
+    font-size: .75em;
+  }
+}
+
+.icons {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#footer-nav {
+  display: block;
+}
+
+.footericon {
+  max-height: 30px;
 }
