@@ -10,17 +10,6 @@
       $('.copyrightyear').text(currentYear);
     });
 
-    //displays info about gallery image on hover
-    $('.image').hover(
-      function () {
-        $(this).find('.post-content').css('display', 'block');
-      },
-
-      function () {
-        $(this).find('.post-content').css('display', 'none');
-      }
-    );
-
     //github footer icon hover effect
     $('#github').hover(
       function () {
