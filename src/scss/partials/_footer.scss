@@ -22,3 +22,9 @@ footer {
 .footericon {
   max-height: 30px;
 }
+
+@media (max-width: 767px) {
+  .footericon {
+    max-height: 25px;
+  }
+}

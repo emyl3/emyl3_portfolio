@@ -1,9 +1,10 @@
-$main-bg-color: rgba(238, 230, 217, 100);
 $main-blue-color: rgba(107, 120, 175, 100);
 $main-white-color: rgba(255, 255, 255, 100);
 $main-brown-color: rgba(124, 66, 63, 100);
 
 $secondary-brown-color: rgba(220, 199, 179, 100);
+$gallery-bg-color: rgba(238, 230, 217, 100);
+$accent-yellow-color: rgba(249, 207, 90, 100);
 
 $primary-font-stack: 'Lobster Two', cursive;
 $secondary-font-stack: 'Lato', sans-serif;
@@ -21,6 +22,8 @@ $secondary-font-stack: 'Lato', sans-serif;
 }
 
 .heading {
+  text-align: center;
+
   h1 {
     font-family: $primary-font-stack;
     color: $main-brown-color;
@@ -29,11 +32,33 @@ $secondary-font-stack: 'Lato', sans-serif;
     margin: 5% 0% 5% 0%;
   }
 
+  #about {
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-family: $secondary-font-stack;
+    color: $main-brown-color;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 767px) {
   .heading {
-    font-size: 3em;
-    margin-bottom: 10%;
+    #about {
+      font-size: 3em;
+      margin-bottom: 0px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
   }
 }

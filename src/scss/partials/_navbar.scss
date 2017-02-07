@@ -28,6 +28,11 @@
   background-color: $main-white-color;
 }
 
+.navbar-custom .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: $accent-yellow-color;
+    color: $main-white-color;
+}
+
 @media (max-width: 767px) {
   .navbar-nav > li > a {
     line-height: 15px !important;

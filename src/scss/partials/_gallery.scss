@@ -1,17 +1,23 @@
-
 .gallery {
   margin-bottom: 50px
 }
 
 .post-content {
-    background: none repeat scroll 0 0 $main-bg-color;
-    opacity: 0.5;
-    top:0;
-    left:40px;
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    display: none;
+  background: none repeat scroll 0 0 $gallery-bg-color;
+  opacity: 0.75;
+  top:0;
+  left:40px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: none;
+  padding: 100px 10px 10px 10px;
+  font-family: $secondary-font-stack;
+  color: $main-brown-color;
+
+  h3 {
+    margin-bottom: 0px;
+  }
 }
 
 .image {
